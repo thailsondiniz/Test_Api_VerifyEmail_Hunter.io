@@ -18,7 +18,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   final _formKey = GlobalKey<FormState>();
-
+//
   Future<void> checkEmailExists(String email) async {
     const apiKey = '';
     final url = Uri.parse(
